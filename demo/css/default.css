@@ -1,0 +1,334 @@
+body {
+	font: 12px arial, sans-serif;
+	background: url(black_1x1.png) repeat-y 200px top #EcEcEc;	
+}
+textarea {font: 12px arial, sans-serif;}
+body.sys {
+	background-image:none;
+}
+.login_page{ background:none; }
+
+#login {
+	text-align: center;
+	background: url(../images/whiteGradient.png) no-repeat top left #e3e3e3;
+	border: 1px solid #CFCFCF;
+	min-height: 330px;
+	_height: 330px;
+	width: 705px;
+	position: absolute;
+	left: 50%;
+	margin-left: -352px;
+	top: 50%;
+	margin-top: -165px;
+	-moz-border-radius-bottomright: 30px;
+	-webkit-border-bottom-right-radius: 30px;
+	_height: 100%; /* IE FIX */
+}
+
+
+#login h2 {
+	padding: 15px 0 15px 75px;
+	_padding-left: 38px;
+	margin-top: 25px;
+	font-size: 45px;
+	background: url(../images/h2BG.png) no-repeat #BFBFBF ;
+	color: #2F2F2F;
+	border-top: 1px solid #9F9F9F;
+	text-indent: -9999px;
+	width: 676px;
+	height: 73px;
+	position: relative;
+	left: -23px;
+}
+
+#login label {
+	font-size: 24px;
+}
+
+#login input {
+	width: 40%;
+	height: 30px;
+	position: relative;
+	top: -4px;
+	font-size: 20px;
+	padding: 0 .3em;
+	color: #555555;
+}
+
+#login input#submit {
+	width: 15%;
+	font-size: 14px;
+}
+#login small {
+	font-size: 16px;
+	position: relative;
+	top: -4px;
+}
+
+#login h4 {
+	color: #5F5F5F;
+	font-size: 23px;
+}
+
+#login h4.alert {
+	background-color: #bfbfbf;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .4em;
+	border: 1px dotted white;
+	font-size: 19px;
+	line-height: 19px;
+	position: relative;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#login span.exit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #6361DF;
+	color: #292929;
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: bold;
+	padding: 0 .3em;
+	cursor: pointer;
+	border-left: 1px dotted white;
+	border-bottom: 1px dotted white;
+}
+
+#container{
+	position:relative;
+}
+#header{
+	text-align:right;
+	border-bottom:1px solid;
+	margin:0 0 20px 0;
+	padding:0 20px;
+	font:bold 14px Verdana, Arial, Helvetica, sans-serif;
+	
+	background-color:#fff;
+	overflow:hidden;
+}
+#top_welcome{
+	float:right; 
+}
+#loading{
+	position:absolute; top:50px; left:200px;
+	display:none;
+}
+
+.list{
+	border:1px solid #C3C3C3; 
+	border-collapse: collapse
+}
+.list td, .list th{
+	padding:3px 10px;
+}
+
+.box{
+	border:1px solid;
+	padding:10px;
+}
+.box img{
+	width:100px;
+}
+.fr{float:right}
+.font_list{
+	float:left; width:200px; overflow:hidden; position:relative;
+	margin-right:20px;
+	padding:4px 10px;
+}
+.font_list a{
+	display:none;
+}
+
+.prd_desc{
+	width:400px;
+	height:50px;
+	border:1px solid #000;
+}
+
+#left{
+	position:absolute; left:0; top:100px;
+	width:200px; overflow:hidden;
+
+}
+#left h1 {
+	font-size:16px;
+	padding: 3px 0 3px 10px;
+}
+
+
+.chart_container{
+    width:44%; height:70%;
+	padding:0 2% 50px 2%; margin:15px 0 0 0;
+    float:left;
+	min-width:350px;
+	max-height:370px;
+}
+
+#chart_wrapper {
+	position:relative; 
+	overflow:hidden;
+	margin-left:220px;
+}
+
+#menu{
+	float:left;
+	list-style-type:none;
+}
+#menu li{float:left; padding:10px;}
+#menu li.seperate{
+	border-left:2px dashed red;
+	height:48px; margin-left:15px;
+}
+#menu a{
+	display:block; width:48px; height:48px;
+}
+#ico_chart {background:url(chart.png) no-repeat;}
+#ico_table {background:url(table_data.png) no-repeat;}
+#ico_print {background:url(print.png) no-repeat;}
+#ico_config {background:url(config.png) no-repeat;}
+
+#ico_user {background:url(user.png) no-repeat;}
+#ico_device {background:url(devices.png) no-repeat;}
+#ico_permission {background:url(permissions.png) no-repeat;}
+#ico_chart_config {background:url(config.png) no-repeat;}
+
+#nav {
+    float: left;
+    width: 280px;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;
+}
+#nav li a {
+    display: block;
+    padding: 10px 15px;
+    background: #ccc;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #999;
+    text-decoration: none;
+    color: #000;
+}
+#nav li a:hover, #nav li a.active {
+    background: #999;
+    color: #fff;
+}
+#nav li ul {
+    display: none;
+}
+#nav li ul li a {
+    padding: 10px 25px;
+    background: #ececec;
+    border-bottom: 1px dotted #ccc;
+}
+#nav li ul li a:hover{
+	background-color:#eef7b1;
+	color:#000;
+}
+
+.place_holder{
+	font:normal 20px "Times New Roman", Times, serif;
+	color:#333;
+}
+
+.listing{ background-color:#000; }
+.listing td,
+.listing th{
+	padding:2px 5px;
+}
+.listing th{
+	background-color:#57C8E6; color:#fff;
+    padding:5px;
+}
+.listing tr:nth-child(even) {
+	background-color:#eee;
+}
+.listing tr:nth-child(odd) {
+	background-color:#fff;
+}
+.listing tr:hover{
+    background-color:#F5F7E3;
+}
+
+#top_welcome  span,
+#top_welcome  a,
+#top_welcome  a img
+{
+    float:right; 
+    margin:0 10px 0 0;
+    height:68px; line-height:68px;
+}
+#top_welcome  a img{height:auto; margin-top:18px;}
+
+#copyright {
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    z-index: 10;
+    height:40px; padding-top: 5px;
+    text-align: center;
+    background-color: #fff; border-top: 1px solid #000;
+}
+.page_title{
+    font:20px Tahoma; color:#6361DF; padding: 0 0 5px 50px;
+    text-align: left;
+}
+
+
+.sys_setting_wrapper {
+	padding:0 20px 20px 20px;
+}
+.data_listing {
+	float:left;
+	width:40%; margin-right:5%;
+}
+.data_listing td{padding:2px 10px;}
+tr.header td{background-color:#9AD00D;}
+tr.header .header{padding:2px 5px;}
+tr.sub_header td{background-color:#ccc;}
+.edit_form_wrapper{
+	float:left;
+	width:55%;
+}
+
+.edit_form_wrapper input[type=text],
+.edit_form_wrapper input[type=password],
+.edit_form_wrapper textarea {
+	width:98%;
+}
+
+.line{margin-bottom:4px;}
+
+tr.odd{
+	background-color:#efffff;
+}
+
+#edit_profile .line input[type=text],
+#edit_profile .line input[type=password],
+#edit_profile .line textarea{
+	width:60%;
+}
+
+.chart_config_items{
+	border:1px dashed; margin-bottom:10px;
+	padding:10px;
+}
+
+.line.share{
+	float:left; width:48%;
+	margin-right:2%;
+}
+.line.share1{
+	float:left; margin-right:2%;
+}
+
+.error{border-color:#ff0000;}
+
+#redrawContainer{
+	position:absolute; top:0; left:400px;
+}
